@@ -62,3 +62,24 @@ if (ciromaAverageScoreB2 > dumebiAverageScoreB2 && ciromaAverageScoreB2 >= 100) 
 } else {
   console.log("No team wins the trophy");
 }
+
+              // TASK 2
+const myScore = prompt("Enter your Score")
+if(myScore<=25){
+  console.log(`Your grade is "F"`)
+}
+else if(myScore>=26 && myScore<=45){
+  console.log(`Your grade is "E"`)
+}
+else if(myScore>=46 && myScore<=50){
+  console.log(`Your grade is "D"`)
+}
+else if(myScore>=51 && myScore<=60){
+  console.log(`Your grade is "C"`)
+}
+else if(myScore>=61 && myScore<=80){
+  console.log(`Your grade is "B"`)
+}
+else{
+  console.log(`Your grade is "A"`)
+}
