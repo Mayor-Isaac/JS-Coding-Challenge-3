@@ -64,7 +64,7 @@ if (ciromaAverageScoreB2 > dumebiAverageScoreB2 && ciromaAverageScoreB2 >= 100) 
 }
 
               // TASK 2
-const myScore = prompt("Enter your Score")
+const myScore = prompt("Enter your Score");
 if(myScore<=25){
   console.log(`Your grade is "F"`)
 }
